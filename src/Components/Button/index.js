@@ -1,10 +1,14 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
-
+import "./style.css"
 
 let buttonClick = ()=>{
     alert("yo yo");
 }
+
+const Welcome = (props) => {
+    return <h1>Hello, {props.name}</h1>;
+   }
 
 
 
@@ -24,7 +28,12 @@ basket(){
 
 
 render(){
-return(<button onClick={()=> this.basket()}> Change </button>);
+   
+return(
+    <div>
+<button onClick={()=> this.basket()}> Change </button>
+</div>
+);
 }
 
 
