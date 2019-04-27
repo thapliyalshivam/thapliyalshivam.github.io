@@ -1,37 +1,39 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Button from "../Button"
 import ReactDOM from "react-dom";
 import Card from "../Card";
+import "./style.css";
 
-class Header extends Component{
+class Header extends Component {
 
-constructor(){
-    super();
-    this.state = {
-        project:"project"
+    constructor() {
+        super();
+        this.state = {
+            project: "project"
+        }
+        this.stateFixer = this.stateFixer.bind(this);
     }
-    this.stateFixer = this.stateFixer.bind(this);
-}
 
-stateFixer(newName){
-    this.setState ( {
-        project: newName || "Shivam Thapliyal"
-    });
-} 
+    stateFixer(newName) {
+        this.setState({
+            project: newName || "Shivam Thapliyal"
+        });
+    }
 
-  
-render(){
 
-return(
-    <div>
-<h1>This is {this.state.project}</h1> 
+    render() {
 
-<Button   nameUpdation = {this.stateFixer}/> 
-<Card/>
-</div>
-);
+        return (
+            <div>
+                <div className="header">
+                    <h2>SHIVAM THAPLIYAL</h2>
+                </div>
+                <Button nameUpdation={this.stateFixer} />
+                <Card />
+            </div>
+        );
 
-}
+    }
 
 
 }

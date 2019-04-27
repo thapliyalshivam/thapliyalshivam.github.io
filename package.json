@@ -7,7 +7,10 @@
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "react-redux": "^7.0.2",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,6 +18,7 @@
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
+    "hello": "echo shit!",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
