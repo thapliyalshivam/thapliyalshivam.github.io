@@ -29,7 +29,7 @@ class Header extends Component {
                     <h2>SHIVAM THAPLIYAL</h2>
                 </div>
                 <Button nameUpdation={this.stateFixer} />
-                <Card />
+               
             </div>
         );
 
