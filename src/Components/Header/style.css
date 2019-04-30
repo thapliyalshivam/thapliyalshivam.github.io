@@ -2,7 +2,7 @@
 .header{
     width: 100%;
     padding: 30px 0px;
-    background-color: #393a44;
+    background-color: #ffffff;
     position:fixed;
   
 }
@@ -10,7 +10,7 @@
 h2
 {
  font-family: 'futura';
- color: #EEE;
+ color:#4F4B4B;
  margin: 0px;
  font-size: 18px;
  font-weight: 500;

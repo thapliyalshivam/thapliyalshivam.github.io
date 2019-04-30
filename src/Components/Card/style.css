@@ -1,14 +1,26 @@
 .fill {
     display: flex;
+    text-align: left;
+    flex-direction:column;
     width: 585px;
-    height:341px;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     margin: 40px;
 }
 .fill img {
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%
+}
+
+.titles{
+    colour:#4F4B4B;
+    font-family: 'futura';
+    font-size: 34px;
+    margin: 20px 0px 20px 0px;
+}
+
+.captions{
+ font-family: 'Courier New', Courier, monospace;
+ margin-top:0px;
+ font-weight: 400;
+ color:#777;
 }

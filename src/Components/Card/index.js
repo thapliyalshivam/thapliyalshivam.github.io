@@ -44,6 +44,9 @@ class Card extends Component {
             this.state.images.map((c, idt) =>
                 <div class="fill">
                     <img key={idt} src={c}></img>
+                    <h2 className="titles"> title</h2>
+                    <h3 className="captions"> An interactive art installation using nodejs for
+a realtime experience of the visuals.</h3>
                 </div>
             )
         );
