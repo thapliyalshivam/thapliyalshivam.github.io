@@ -25,9 +25,9 @@ class Header extends Component {
 
         return (
             <div>
-                {/* <div className="header">
+                <div className="header">
                     <h2>SHIVAM THAPLIYAL</h2>
-                </div> */}
+                </div>
                 <Button nameUpdation={this.stateFixer} />
                
             </div>

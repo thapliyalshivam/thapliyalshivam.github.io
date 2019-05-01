@@ -1,4 +1,4 @@
-.fill {
+/* .fill {
     display: flex;
     width: 585px;
     height:341px;
@@ -12,3 +12,13 @@
     min-width: 100%;
     min-height: 100%
 }
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 120px;
+    margin: 0 auto;
+    justify-content:center;
+   */

@@ -33,7 +33,7 @@ render(){
 
 return(
     <div>
-    <button type="submit" onClick={()=>this.props.song(2,33)}> {this.props.ctr} </button>
+    <button type="submit" onClick={()=>this.props.song(2,"honey")}> {this.props.ctr} </button>
 <button type="submit" onClick={()=>this.props.incr(1000)}> {this.props.ctr} </button>
 </div>
 );
