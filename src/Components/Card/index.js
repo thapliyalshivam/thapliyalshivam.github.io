@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./style.css";
+import * as projects from '../../data/data.json';
+console.log(projects.data);
+
 
 let endpoint = "https://dog.ceo/api/breeds/image/random/6"
 
@@ -20,14 +23,10 @@ class Card extends Component {
 
     componentDidMount() {
 
-        fetch(endpoint)
-            .then(data => {
-                return data.json();
-            })
-            .then(data => {
-                this.setState({ images: data.message });
-                console.log(this.state.images)
-            });
+        this.setState({ images: projects.data.map(i=>i.img) });
+
+        console.log(this.state.images)
+
 
     }
 
