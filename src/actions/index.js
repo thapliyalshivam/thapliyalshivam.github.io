@@ -1,9 +1,9 @@
 
 
 //import {connect} from 'react-redux';
-var song = (yo,boy) => (dispatch, getState) => {
-    console.log("HEAD")
-    dispatch({type:"HEAD",value:yo+"nee"});
+var updateCarousel = (id) => (dispatch, getState) => {
+    console.log(getState());
+    dispatch({type:"HEAD",value:"nee"});
   };
   
-  export default song;
+  export default updateCarousel;

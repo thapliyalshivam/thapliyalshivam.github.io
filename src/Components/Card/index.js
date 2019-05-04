@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+
+import { connect } from 'react-redux';
 import "./style.css";
 import * as projects from '../../data/data.json';
+import updateCarousel from '../../actions'
+import { bindActionCreators } from "../../../../../Library/Caches/typescript/3.4.3/node_modules/redux";
 console.log(projects.data);
 
 
@@ -15,37 +19,28 @@ class Card extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            images: []
-        }
     }
 
 
     componentDidMount() {
-
-        this.setState({ images: projects.data.map(i=>i.img) });
-
-        console.log(this.state.images)
-
-
+        this.props.populate(projects.data.map(i=>i.img))
     }
 
 
-    basket() {
-        console.log("dickkkkk");
-        this.props.nameUpdation("sc")
+    basket = (a) => {
+        console.log(a);
     }
 
 
     render() {
         return (
             // <h1>sd</h1>
-            this.state.images.map((c, idt) =>
-                <div class="fill">
+            this.props.images.map((c, idt) =>
+                <div className="fill" key={idt.toString()} onClick={() => this.props.updateCarousel(idt)}>
                     <img key={idt} src={c}></img>
                     <h2 className="titles"> Verola Patterns</h2>
                     <h3 className="captions"> An interactive art installation using nodejs for
-a realtime experience of the visuals.</h3>
+                        a realtime experience of the visuals.</h3>
                 </div>
             )
         );
@@ -54,4 +49,23 @@ a realtime experience of the visuals.</h3>
 
 }
 
-export default Card;
+const mapStatetoProp = state => {
+    return {
+        images: state.images
+    };
+}
+
+
+const dispatchtoProp = dispatch => {
+    return {
+        populate: (images) => {
+            dispatch({ type: "DATAPOPULATE", images: images })
+        },
+        incr: (mm) => {
+            console.log("sksnjnsjnsk");
+            dispatch({ type: "INCR", value: mm })
+        },
+        updateCarousel: bindActionCreators(updateCarousel, dispatch)
+    };
+};
+export default connect(mapStatetoProp, dispatchtoProp)(Card);
