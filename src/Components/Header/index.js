@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Button from "../Button"
 import ReactDOM from "react-dom";
 import Card from "../Card";
 import "./style.css";

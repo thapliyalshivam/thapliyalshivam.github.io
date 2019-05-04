@@ -1,5 +1,5 @@
 
-const inti_state = { ctr: 11, isMenuOn: false, heading: "new", images:[] };
+const inti_state = { carousel:{},ctr: 11, isMenuOn: false, heading: "new", images:[] };
 
 
 const reducer = (state = inti_state, action) => {
@@ -9,6 +9,12 @@ const reducer = (state = inti_state, action) => {
     if (action.type === "INCR") {
         return {
             ...state, ctr: state.ctr + action.value
+        };
+    }
+
+    if (action.type === "CAROUSELSET") {
+        return {
+            ...state, carousel: action.data
         };
     }
 

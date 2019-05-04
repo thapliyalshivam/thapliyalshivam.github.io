@@ -13,8 +13,10 @@ class Gallery extends Component {
 
 
     render() {
-        return (
-            (2==2?<p>{this.props.heading}pixxa</p>:null)
+        return (<div>
+            (2==2?<p>{this.props.carousel.title}pixxa</p>:null)
+            <img src={this.props.carousel.img}/>
+            </div>
         )
     }
 
@@ -23,7 +25,7 @@ class Gallery extends Component {
 
 const mapStateToProps = state =>{
     return{
-        heading:state.heading
+        carousel:state.carousel
     }
 }
 

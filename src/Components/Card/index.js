@@ -23,7 +23,7 @@ class Card extends Component {
 
 
     componentDidMount() {
-        this.props.populate(projects.data.map(i=>i.img))
+        this.props.populate(projects.data)
     }
 
 
@@ -36,8 +36,8 @@ class Card extends Component {
         return (
             // <h1>sd</h1>
             this.props.images.map((c, idt) =>
-                <div className="fill" key={idt.toString()} onClick={() => this.props.updateCarousel(idt)}>
-                    <img key={idt} src={c}></img>
+                <div className="fill" key={c.id} onClick={() => this.props.updateCarousel(c.id)}>
+                    <img  src={c.img}></img>
                     <h2 className="titles"> Verola Patterns</h2>
                     <h3 className="captions"> An interactive art installation using nodejs for
                         a realtime experience of the visuals.</h3>
