@@ -3,16 +3,18 @@ import {connect} from 'react-redux';
 import ReactDOM from "react-dom";
 import "./style.css";
 
-const Passages = (props) => (
-    props.text.map((data,i) =>
-    <p>{data}</p> 
-
-    ));
+const Passages = (props) => {return(
+    <div>
+    <h3>{props.heading}</h3>
+   { props.text.map((data,i) =>
+   <p>{data}</p>)}
+    </div>
+    )};
 
  const GalleryBody = (props) => (
     props.name.map((data,i) =>(
        data.type==="TEXT" ?  
-       <Passages  text={data.paragraphs}/>:
+       <Passages  heading={data.heading}text={data.paragraphs}/>:
        <img  src={data.URL}/>
     )
     ));
@@ -31,7 +33,7 @@ class Gallery extends Component {
         <div className="gallery">
             (2==2?{<p>{this.props.carousel.title}pixxa</p>}:Null)
             <img src={this.props.carousel.img}/>
-            
+
             <GalleryBody name={this.props.carousel.content} />
             </div>
         )
