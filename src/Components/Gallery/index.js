@@ -3,6 +3,19 @@ import {connect} from 'react-redux';
 import ReactDOM from "react-dom";
 import "./style.css";
 
+const Passages = (props) => (
+    props.text.map((data,i) =>
+    <p>{data}</p> 
+
+    ));
+
+ const GalleryBody = (props) => (
+    props.name.map((data,i) =>(
+       data.type==="TEXT" ?  
+       <Passages  text={data.paragraphs}/>:
+       <img  src={data.URL}/>
+    )
+    ));
 class Gallery extends Component {
 
 
@@ -11,13 +24,19 @@ class Gallery extends Component {
     }
 
 
-
     render() {
-        return (<div>
-            (2==2?<p>{this.props.carousel.title}pixxa</p>:null)
+
+        if (this.props.iscarouselon)
+        return (
+        <div className="gallery">
+            (2==2?{<p>{this.props.carousel.title}pixxa</p>}:Null)
             <img src={this.props.carousel.img}/>
+            
+            <GalleryBody name={this.props.carousel.content} />
             </div>
         )
+        else
+        return null
     }
 
 
@@ -25,7 +44,8 @@ class Gallery extends Component {
 
 const mapStateToProps = state =>{
     return{
-        carousel:state.carousel
+        carousel:state.carousel,
+        iscarouselon: state.iscarouselon
     }
 }
 

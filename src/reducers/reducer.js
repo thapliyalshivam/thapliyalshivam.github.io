@@ -1,5 +1,5 @@
 
-const inti_state = { carousel:{},ctr: 11, isMenuOn: false, heading: "new", images:[] };
+const inti_state = { iscarouselon: false,carousel:{},ctr: 11, isMenuOn: false, heading: "new", images:[] };
 
 
 const reducer = (state = inti_state, action) => {
@@ -14,7 +14,7 @@ const reducer = (state = inti_state, action) => {
 
     if (action.type === "CAROUSELSET") {
         return {
-            ...state, carousel: action.data
+            ...state, carousel: action.data, iscarouselon:true
         };
     }
 
