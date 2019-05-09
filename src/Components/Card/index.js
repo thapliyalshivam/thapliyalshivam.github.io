@@ -37,10 +37,9 @@ class Card extends Component {
             // <h1>sd</h1>
             this.props.images.map((c, idt) =>
                 <div className="fill" key={c.id} onClick={() => this.props.updateCarousel(c.id)}>
-                    <img  src={c.img}></img>
-                    <h2 className="titles"> Verola Patterns</h2>
-                    <h3 className="captions"> An interactive art installation using nodejs for
-                        a realtime experience of the visuals.</h3>
+                    <img  src={require(`../../../public/thumbnails/${c.img}.jpeg`)}></img>
+                    <h2 className="titles"> {c.title}</h2>
+                    <h3 className="captions"> {c.desc}</h3>
                 </div>
             )
         );

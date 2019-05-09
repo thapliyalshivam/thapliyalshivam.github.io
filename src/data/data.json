@@ -2,7 +2,7 @@
     "data": [
         {
             "title": "memosa",
-            "img": "https://camo.githubusercontent.com/de4bc69cff7460b3f73e86114c1127cc0a3fad93/68747470733a2f2f737461746963312e73717561726573706163652e636f6d2f7374617469632f3561383731343961623037383639313432386662643464622f3561396533626331656332313264306363303930353263362f3563373163643066343139323032353736313061303261632f313535303936313937313436302f494d475f32303139303133305f3139323831322e6a70673f666f726d61743d3235303077",
+            "img": "bahoroop",
             "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
             "git_link":"http://thapliyalshivam.github.io",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
@@ -19,7 +19,7 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg"
+                    "URL":"momo"
                 },
 
                 {
@@ -27,61 +27,23 @@
                     "heading":"samosa",
                     "paragraphs":[
                         "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Bahoroop Darkshak",
-            "img": "https://payload.cargocollective.com/1/5/176485/13514034/Nobrow-10-Nobrow-72_1600_c.jpg",
-            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
-            "git_link":"http://thapliyalshivam.github.io",
-            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
-            "id":"PRO_2",
-            "content":[
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon.Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon. ",
-                        "Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon.",
-                        "Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon.Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon.Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon."
-                    ]
-                },
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon.Now this is the line following which there will be discussion on the project. This is such a filler text that I need to actually think what to write here.No idea what to write just so to increase the length text so I can get enough data to putthis is a mockup. Hope this goes over sooon. ",
                         "sdfsdfsf",
                         "birjilu"
                     ]
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"https://payload.cargocollective.com/1/5/176485/13514034/Nobrow-10-Nobrow-72_1600_c.jpg"
-                },
-
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
+                    "URL":"mo/mo"
                 }
             ]
         },
         {
             "title": "memosa",
-            "img": "https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg",
+            "img": "mo/mo",
             "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
             "git_link":"http://thapliyalshivam.github.io",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
-             "id":"PRO_3",
+            "id":"PRO_1",
             "content":[
                 {
                     "type":"TEXT",
@@ -94,32 +56,9 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"https://payload.cargocollective.com/1/5/176485/13512797/BAB_1600_c.jpg"
+                    "URL":"momo"
                 },
 
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Dosa",
-            "img": "https://payload.cargocollective.com/1/5/176485/13512797/BAB_1600_c.jpg",
-            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
-            "git_link":"http://thapliyalshivam.github.io",
-            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
-            "id":"PRO_4",
-            "content":[
-                {
-                    "type":"IMAGE",
-                    "URL":"https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg"
-                },
                 {
                     "type":"TEXT",
                     "heading":"samosa",
@@ -131,17 +70,7 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg"
-                },
-
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
+                    "URL":"mo/mo"
                 }
             ]
         }

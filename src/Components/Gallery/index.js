@@ -17,7 +17,7 @@ const GalleryBody = (props) => (
     props.name.map((data, i) => (
         data.type === "TEXT" ?
             <Passages heading={data.heading} text={data.paragraphs} /> :
-            <img src={data.URL} />
+            <img src={require(`../../../public/thumbnails/${data.URL}.jpeg`)} />
     )
     ));
 
@@ -48,7 +48,7 @@ class Gallery extends Component {
         if (this.props.iscarouselon)
             return (
                 <div className="gallery">
-                    <img src={this.props.carousel.img} />
+                    <img src={ require(`../../../public/thumbnails/${this.props.carousel.img}.jpeg`)  } />
                     <InfoCard links={this.props.carousel} />
                     <GalleryBody name={this.props.carousel.content} />
                 </div>
