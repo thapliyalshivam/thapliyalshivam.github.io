@@ -26,6 +26,15 @@
     color:#222;
 }
 
+.gallery h2{
+ 
+    color:#4F4B4B;
+    font-family: 'futura';
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 .gallery h3{
 
     color:#4F4B4B;
@@ -33,4 +42,29 @@
     font-size: 24px;
     font-weight: 500;
     margin-top: 40px;
+}
+.gallery h5{
+
+    color:#A2A2A2;
+    font-family: 'futura';
+    font-size: 20px;
+    max-width: 584px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.gallery a{
+
+    color:#4F4B4B;
+    font-family: 'futura';
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 26px;
+}
+
+.gallery a:nth-child(2){
+    margin-left:40px;
+}
+.links{
+    margin-bottom: 40px ;
 }

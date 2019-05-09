@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import Card from "../Card";
 import "./style.css";
 
-class Header extends Component {
+class Footer extends Component {
 
     constructor() {
         super();

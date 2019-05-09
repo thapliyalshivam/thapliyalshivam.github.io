@@ -3,6 +3,9 @@
         {
             "title": "memosa",
             "img": "https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg",
+            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
+            "git_link":"http://thapliyalshivam.github.io",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
             "id":"PRO_1",
             "content":[
                 {
@@ -31,8 +34,11 @@
             ]
         },
         {
-            "title": "memosa",
+            "title": "Bahoroop Darkshak",
             "img": "https://payload.cargocollective.com/1/5/176485/13514034/Nobrow-10-Nobrow-72_1600_c.jpg",
+            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
+            "git_link":"http://thapliyalshivam.github.io",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
             "id":"PRO_2",
             "content":[
                 {
@@ -72,7 +78,10 @@
         {
             "title": "memosa",
             "img": "https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg",
-            "id":"PRO_3",
+            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
+            "git_link":"http://thapliyalshivam.github.io",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+             "id":"PRO_3",
             "content":[
                 {
                     "type":"TEXT",
@@ -102,8 +111,15 @@
         {
             "title": "Dosa",
             "img": "https://payload.cargocollective.com/1/5/176485/13512797/BAB_1600_c.jpg",
+            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
+            "git_link":"http://thapliyalshivam.github.io",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
             "id":"PRO_4",
             "content":[
+                {
+                    "type":"IMAGE",
+                    "URL":"https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg"
+                },
                 {
                     "type":"TEXT",
                     "heading":"samosa",
