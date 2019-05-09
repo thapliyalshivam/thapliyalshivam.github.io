@@ -1,35 +1,20 @@
 import React, { Component } from "react";
-import Button from "../Button"
+
 import ReactDOM from "react-dom";
 import Card from "../Card";
 import "./style.css";
 
 class Footer extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            project: "project"
-        }
-        this.stateFixer = this.stateFixer.bind(this);
-    }
 
-    stateFixer(newName) {
-        this.setState({
-            project: newName || "Shivam Thapliyal"
-        });
-    }
-
- 
     render() {
 
         return (
-            <div>
-                <div className="header">
-                    <h2>SHIVAM THAPLIYAL</h2>
-                </div>
-                <Button nameUpdation={this.stateFixer} />
-               
+            <div className="footer">
+            <a href="mailto:thapliyalshivam@gmail.com"><i>mail</i></a>
+            <a href="https://www.twitter.com/coffee_caffine"><i>twitter</i></a>
+            <a href="https://www.medium.com/@thapliyalshivam"><i>medium</i></a>
+            <a href="https://www.codepen.com/thapliyalshivam"><i>codepen</i></a>
             </div>
         );
 
@@ -38,4 +23,4 @@ class Footer extends Component {
 
 }
 
-export default Header;
+export default Footer;

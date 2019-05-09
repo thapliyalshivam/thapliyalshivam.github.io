@@ -2,7 +2,7 @@
     "data": [
         {
             "title": "memosa",
-            "img": "https://payload.cargocollective.com/1/5/176485/13513213/BBC-Wildlife-Citizen-Science_1600_c.jpg",
+            "img": "https://camo.githubusercontent.com/de4bc69cff7460b3f73e86114c1127cc0a3fad93/68747470733a2f2f737461746963312e73717561726573706163652e636f6d2f7374617469632f3561383731343961623037383639313432386662643464622f3561396533626331656332313264306363303930353263362f3563373163643066343139323032353736313061303261632f313535303936313937313436302f494d475f32303139303133305f3139323831322e6a70673f666f726d61743d3235303077",
             "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
             "git_link":"http://thapliyalshivam.github.io",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",

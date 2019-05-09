@@ -15,3 +15,14 @@ h2
  font-size: 18px;
  font-weight: 500;
 }
+
+
+.footer a{
+    color:#4F4B4B;
+    font-family: 'futura';
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 26px;
+    padding:50px 10px;
+    
+}
