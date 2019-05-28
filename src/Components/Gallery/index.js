@@ -48,9 +48,11 @@ class Gallery extends Component {
         if (this.props.iscarouselon)
             return (
                 <div className="gallery">
+                    <div>
                     <img src={ require(`../../../public/thumbnails/${this.props.carousel.img}.jpeg`)  } />
                     <InfoCard links={this.props.carousel} />
                     <GalleryBody name={this.props.carousel.content} />
+                    </div>
                 </div>
             )
         else

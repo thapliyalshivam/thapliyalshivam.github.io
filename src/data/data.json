@@ -1,76 +1,64 @@
 {
     "data": [
         {
-            "title": "memosa",
-            "img": "bahoroop",
-            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
-            "git_link":"http://thapliyalshivam.github.io",
-            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "title": "Bahoroopdarshak",
+            "img": "Bahoroopsarshak/img_5",
+            "desc":"An interactive installation made using HTML5 Canvas and websockets",
+            "git_link":"http://github.com/thapliyalshivam/TIARF_installation/",
+            "live_link":"https://thapliyalshivam.github.io/TIARF_installation/",
             "id":"PRO_1",
             "content":[
                 {
                     "type":"TEXT",
-                    "heading":"samosa",
+                    "heading":"Concept",
                     "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
+                        "Bahuroopadarshak or simply, Kaleidoscope, invented in 1816 was one of the first ways to experience altered reality. A magical way to disconnect from the reality and get immersed in worlds of patterns. colours and ever-changing visuals. As time progresses, our cell phones have become a kaleidoscope and a way to enjoy the sheen falseness by disconnecting from reality. Bahuroopadarshak is an interactive art exploration that lets you experience that altered reality with a cellphone. Enjoy the visual shenanigans of Patterns, lucrative colours, images as they dance to the movement of your modern day 'bahuroopadarshak'. Click on the live demo to experience it on your phone"
                     ]
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"momo"
-                },
-
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
+                    "URL":"bahoroop"
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"mo/mo"
+                    "URL":"Bahoroopsarshak/img_1"
+                },
+                 {
+                    "type":"IMAGE",
+                    "URL":"Bahoroopsarshak/img_2"
+                } ,
+                {
+                    "type":"IMAGE",
+                    "URL":"Bahoroopsarshak/img_3"
+                }, 
+                {
+                    "type":"IMAGE",
+                    "URL":"Bahoroopsarshak/img_4"
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"Bahoroopsarshak/img_5"
                 }
             ]
         },
         {
-            "title": "memosa",
-            "img": "mo/mo",
-            "desc":"This is an interactaive installation made using nodejs and some more technologics and coded by myself",
-            "git_link":"http://thapliyalshivam.github.io",
+            "title": "animation loops",
+            "img": "loop",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
-            "id":"PRO_1",
+            "id":"PRO_2",
             "content":[
                 {
                     "type":"TEXT",
                     "heading":"samosa",
                     "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
+                        "sdfsdf"
                     ]
                 },
                 {
                     "type":"IMAGE",
                     "URL":"momo"
-                },
-
-                {
-                    "type":"TEXT",
-                    "heading":"samosa",
-                    "paragraphs":[
-                        "sdfsdf",
-                        "sdfsdfsf",
-                        "birjilu"
-                    ]
-                },
-                {
-                    "type":"IMAGE",
-                    "URL":"mo/mo"
                 }
             ]
         }
