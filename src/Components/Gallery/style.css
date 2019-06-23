@@ -47,10 +47,19 @@
 
     color:#A2A2A2;
     font-family: 'futura';
-    font-size: 20px;
+    font-size: 24px;
     max-width: 584px;
     font-weight: 500;
     margin-top: 5px;
+}
+.gallery h4{
+
+    color:#4F4B4B;
+    text-align: center;
+    font-family: 'futura';
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 90px;
 }
 
 .gallery a{
