@@ -25,7 +25,7 @@ class Header extends Component {
         return (
             <div>
                  <div className="header">
-                    <h2>SHIVAM THAPLIYAL</h2>
+                    <h2>Shivam Thapliyal</h2>
                 </div> 
                
             </div>
