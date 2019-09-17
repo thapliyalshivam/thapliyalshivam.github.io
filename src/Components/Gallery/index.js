@@ -49,10 +49,10 @@ class Gallery extends Component {
             return (
                 <div className="gallery">
                     <div>
-                    <img src={ require(`../../../public/thumbnails/${this.props.carousel.img}.jpeg`)  } />
-                    <InfoCard links={this.props.carousel} />
-                    <GalleryBody name={this.props.carousel.content} />
-                    <h4>More Projects</h4>
+                        <img src={require(`../../../public/thumbnails/${this.props.carousel.img}.jpeg`)} />
+                        <InfoCard links={this.props.carousel} />
+                        <GalleryBody name={this.props.carousel.content} />
+                        <h4>More Projects</h4>
                     </div>
                 </div>
             )
