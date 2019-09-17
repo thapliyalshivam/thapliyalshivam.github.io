@@ -53,6 +53,8 @@ class Gallery extends Component {
                         <InfoCard links={this.props.carousel} />
                         <GalleryBody name={this.props.carousel.content} />
                         <h4>More Projects</h4>
+
+                        <h2>{this.props.match.params.project_name || "nopes"}</h2>
                     </div>
                 </div>
             )
