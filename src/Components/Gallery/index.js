@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import ReactDOM from "react-dom";
+
+import * as projects from '../../data/data.json';
 import "./style.css";
 
 const Passages = (props) => {
@@ -42,16 +44,24 @@ class Gallery extends Component {
         super(props);
     }
 
+    // componentDidMount() {
+    //     this.props.populate(projects.data)
+    // }
 
     render() {
 
-        if (this.props.iscarouselon)
+        let item = this.props.match.params.project_name ;
+        let project = this.props.images.filter((a)=>a.route==item)[0];
+console.log(JSON.stringify(this.props.images));
+console.log(project);
+
+        if (true)
             return (
                 <div className="gallery">
                     <div>
-                        <img src={require(`../../../public/thumbnails/${this.props.carousel.img}.jpeg`)} />
-                        <InfoCard links={this.props.carousel} />
-                        <GalleryBody name={this.props.carousel.content} />
+                        <img src={require(`../../../public/thumbnails/${project.img}.jpeg`)} />
+                        <InfoCard links={project} />
+                        <GalleryBody name={project.content} />
                         <h4>More Projects</h4>
 
                         <h2>{this.props.match.params.project_name || "nopes"}</h2>
@@ -59,7 +69,7 @@ class Gallery extends Component {
                 </div>
             )
         else
-            return null
+            return (<h1>hghj</h1>)
     }
 
 
@@ -68,6 +78,7 @@ class Gallery extends Component {
 const mapStateToProps = state => {
     return {
         carousel: state.carousel,
+        images: state.images,
         iscarouselon: state.iscarouselon
     }
 }
@@ -78,10 +89,14 @@ const dispatchToProps = dispatch => {
             console.log("sksnjnsjnsk");
             dispatch({ type: "INCR", value: mm })
         },
+        populate: (images) => {
+            dispatch({ type: "DATAPOPULATE", images: images })
+        }
     }
 }
 
 
 
 
-export default connect(mapStateToProps, dispatchToProps)(Gallery);
+//export default Gallery;
+export default connect(mapStateToProps)(Gallery);

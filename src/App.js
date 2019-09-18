@@ -18,8 +18,7 @@ class App extends Component {
       <div className="App">
         <Header name="Tech Portfolio" />
 
-        <Route path='/:project_name' component={Gallery} />
-      
+        <Route path='/:project_name' component={Gallery} />    
         <div className="container"><Card /> </div>
 
         <Footer />

@@ -11,9 +11,11 @@
     width: 100%;
     height: auto;
 }
-
+a{
+    text-decoration: none;
+}
 .titles{
-    colour:#4F4B4B;
+    color:#4F4B4B;
     font-family: 'futura';
     font-size: 34px;
     margin: 20px 0px 20px 0px;

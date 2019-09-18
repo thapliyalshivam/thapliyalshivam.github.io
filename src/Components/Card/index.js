@@ -6,6 +6,9 @@ import "./style.css";
 import * as projects from '../../data/data.json';
 import updateCarousel from '../../actions'
 import { bindActionCreators } from "redux";
+import { Link } from "react-router-dom";
+
+
 console.log(projects.data);
 
 
@@ -36,11 +39,13 @@ class Card extends Component {
         return (
             // <h1>sd</h1>
             this.props.images.map((c, idt) =>
-                <div className="fill" key={c.id} onClick={() => this.props.updateCarousel(c.id)}>
-                    <img  src={require(`../../../public/thumbnails/${c.img}.jpeg`)}></img>
-                    <h2 className="titles"> {c.title}</h2>
-                    <h3 className="captions"> {c.desc}</h3>
-                </div>
+                <Link to={c.route}>
+                    <div className="fill" key={c.id} /*onClick={() => this.props.updateCarousel(c.id)}*/>
+                        <img src={require(`../../../public/thumbnails/${c.img}.jpeg`)}></img>
+                        <h2 className="titles"> {c.title}</h2>
+                        <h3 className="captions"> {c.desc}</h3>
+                    </div>
+                </Link>
             )
         );
     }

@@ -19,10 +19,12 @@ const reducer = (state = inti_state, action) => {
     }
 
     if (action.type === "DATAPOPULATE") {
+        console.log(action.images);
         return {
             ...state, 
             images: action.images
         };
+
     }
 
     if (action.type === "HEAD") {
