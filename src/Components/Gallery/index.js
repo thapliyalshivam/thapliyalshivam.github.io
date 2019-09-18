@@ -42,18 +42,33 @@ class Gallery extends Component {
 
     constructor(props) {
         super(props);
-    }
 
-    // componentDidMount() {
-    //     this.props.populate(projects.data)
-    // }
+        console.log("1");
+        this.props.populate(projects.data);
+    }
+    componentDidMount() {
+        console.log("1");
+        this.props.populate(projects.data);
+    }
+    componentDidUpdate(){
+
+        console.log("1");
+        this.props.populate(projects.data);
+    }
+    componentWillReceiveProps(){
+
+        console.log("1");
+        this.props.populate(projects.data);
+    }
 
     render() {
 
-        let item = this.props.match.params.project_name ;
-        let project = this.props.images.filter((a)=>a.route==item)[0];
-console.log(JSON.stringify(this.props.images));
-console.log(project);
+        console.log("last");
+        this.props.populate(projects.data);
+        let item = this.props.match.params.project_name;
+        let project = this.props.images.filter((a) => a.route == item)[0];
+        console.log(JSON.stringify(this.props.images)+"cdcdcdcd");
+        console.log(project);
 
         if (true)
             return (
@@ -99,4 +114,4 @@ const dispatchToProps = dispatch => {
 
 
 //export default Gallery;
-export default connect(mapStateToProps)(Gallery);
+export default connect(mapStateToProps, dispatchToProps)(Gallery);

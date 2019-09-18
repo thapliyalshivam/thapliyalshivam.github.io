@@ -4,7 +4,6 @@ const inti_state = { iscarouselon: false,carousel:{},ctr: 11, isMenuOn: false, h
 
 const reducer = (state = inti_state, action) => {
 
-    console.log("_______reducer________");
     
     if (action.type === "INCR") {
         return {
@@ -19,6 +18,8 @@ const reducer = (state = inti_state, action) => {
     }
 
     if (action.type === "DATAPOPULATE") {
+
+    console.log("_______reducer________");
         console.log(action.images);
         return {
             ...state, 

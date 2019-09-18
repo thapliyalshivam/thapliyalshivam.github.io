@@ -22,7 +22,6 @@ class App extends Component {
         <div className="container"><Card /> </div>
 
         <Footer />
-        <Route path='/mapi/:project_name' component={hello} />
       </div>
     );
   }
