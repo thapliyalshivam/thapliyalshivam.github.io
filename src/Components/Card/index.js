@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import "./style.css";
 import * as projects from '../../data/data.json';
 import updateCarousel from '../../actions'
-import { bindActionCreators } from "../../../../../Library/Caches/typescript/3.4.3/node_modules/redux";
+import { bindActionCreators } from "redux";
 console.log(projects.data);
 
 
