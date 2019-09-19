@@ -18,9 +18,8 @@ const reducer = (state = inti_state, action) => {
     }
 
     if (action.type === "DATAPOPULATE") {
-
-    console.log("_______reducer________");
-        console.log(action.images);
+ 
+        console.log("newwwwwwww")
         return {
             ...state, 
             images: action.images

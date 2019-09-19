@@ -26,7 +26,7 @@ class Card extends Component {
 
 
     componentDidMount() {
-        this.props.populate(projects.data)
+        this.props.populate(projects.data);
     }
 
 
@@ -39,7 +39,7 @@ class Card extends Component {
         return (
             // <h1>sd</h1>
             this.props.images.map((c, idt) =>
-                <Link to={"/"+c.route}>
+                <Link to={ c.route}>
                     <div className="fill" key={c.id} /*onClick={() => this.props.updateCarousel(c.id)}*/>
                         <img src={require(`../../../public/thumbnails/${c.img}.jpeg`)}></img>
                         <h2 className="titles"> {c.title}</h2>

@@ -3,8 +3,12 @@ import { connect } from 'react-redux';
 import ReactDOM from "react-dom";
 
 import * as projects from '../../data/data.json';
+
+import { bindActionCreators } from "redux";
 import "./style.css";
 
+console.log(projects);
+console.log("saa")
 const Passages = (props) => {
     return (
         <div>
@@ -35,42 +39,27 @@ const InfoCard = (props) =>
     </div>
     );
 
-
-
 class Gallery extends Component {
 
 
     constructor(props) {
         super(props);
-
-        console.log("1");
-        this.props.populate(projects.data);
     }
+
     componentDidMount() {
-        console.log("1");
-        this.props.populate(projects.data);
-    }
-    componentDidUpdate(){
-
-        console.log("1");
-        this.props.populate(projects.data);
-    }
-    componentWillReceiveProps(){
-
-        console.log("1");
         this.props.populate(projects.data);
     }
 
     render() {
 
-        console.log("last");
-        this.props.populate(projects.data);
+      //  this.props.populate(projects.data);
         let item = this.props.match.params.project_name;
+        //console.log(item);
+      //  console.log(this.props.images);
         let project = this.props.images.filter((a) => a.route == item)[0];
-        console.log(JSON.stringify(this.props.images)+"cdcdcdcd");
-        console.log(project);
+        console.log(JSON.stringify(this.props) + "cdcdcdcd");
 
-        if (true)
+        if (this.props.images.length && project!=undefined)
             return (
                 <div className="gallery">
                     <div>
@@ -79,12 +68,11 @@ class Gallery extends Component {
                         <GalleryBody name={project.content} />
                         <h4>More Projects</h4>
 
-                        <h2>{this.props.match.params.project_name || "nopes"}</h2>
                     </div>
                 </div>
             )
         else
-            return (<h1>hghj</h1>)
+            return null
     }
 
 
@@ -95,8 +83,8 @@ const mapStateToProps = state => {
         carousel: state.carousel,
         images: state.images,
         iscarouselon: state.iscarouselon
-    }
-}
+    };
+};
 
 const dispatchToProps = dispatch => {
     return {
