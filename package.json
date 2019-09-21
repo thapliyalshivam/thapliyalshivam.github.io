@@ -18,6 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "v2":"PORT=3001 react-scripts start",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
