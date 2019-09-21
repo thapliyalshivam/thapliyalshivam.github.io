@@ -6,6 +6,7 @@ import "./style.css";
 import * as projects from '../../data/data.json';
 import updateCarousel from '../../actions'
 import { bindActionCreators } from "redux";
+
 import { Link } from "react-router-dom";
 
 
