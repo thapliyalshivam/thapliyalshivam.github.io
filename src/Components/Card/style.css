@@ -1,4 +1,4 @@
-.fill {
+a .fill {
     display: flex;
     text-align: left;
     flex-direction:column;
@@ -6,7 +6,7 @@
     overflow: hidden;
     margin: 40px;
 }
-.fill img {
+a .fill img {
     flex-shrink: 0;
     width: 100%;
     height: auto;
