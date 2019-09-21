@@ -11,8 +11,9 @@ a .fill img {
     width: 100%;
     height: auto;
 }
-a{
+.container a{
     text-decoration: none;
+    display: contents;
 }
 .titles{
     color:#4F4B4B;

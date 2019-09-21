@@ -72,7 +72,8 @@ class Gallery extends Component {
                 </div>
             )
         else
-            return null
+            return (
+                <div className="gallery"></div>)
     }
 
 
