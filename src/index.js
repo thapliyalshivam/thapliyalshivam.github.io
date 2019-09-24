@@ -9,8 +9,8 @@ import reducer from './reducers/reducer.js'
 import thunk from 'redux-thunk';
 import ReactGA from 'react-ga';
 import { HashRouter } from 'react-router-dom';
-ReactGA.initialize('UA-140335665-1');
-ReactGA.pageview(window.location.pathname);
+//ReactGA.initialize('UA-140335665-1');
+//ReactGA.pageview(window.location.hash);
 const store = createStore(reducer, applyMiddleware(thunk));
 
 
