@@ -8,6 +8,7 @@ import Footer from './Components/footer';
 import Gallery from './Components/Gallery';
 import { Route, Router } from 'react-router-dom';
 
+
 const hello = ({match}) => { return "helloooooo!!"+match.params.project_name };
 
 

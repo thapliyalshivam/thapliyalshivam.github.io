@@ -48,6 +48,7 @@ class Gallery extends Component {
 
     componentDidMount() {
         this.props.populate(projects.data);
+        window.scrollTo(0, 0);
     }
 
     render() {

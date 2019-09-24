@@ -3,7 +3,7 @@
         {
             "title": "Bahoroopdarshak",
             "img": "Bahoroopsarshak/img_5",
-            "route":"BAHOO",
+            "route":"bahoo",
             "desc":"An interactive installation made using HTML5 Canvas and websockets",
             "git_link":"http://github.com/thapliyalshivam/TIARF_installation/",
             "live_link":"https://thapliyalshivam.github.io/TIARF_installation/",
@@ -45,7 +45,7 @@
         {
             "title": "Animation loops",
             "img": "loop",
-            "route":"LOOPSY",
+            "route":"loops",
             "desc":"2d and 3d coded loops made in three.js and canvas",
             "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
