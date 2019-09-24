@@ -10,6 +10,7 @@ import thunk from 'redux-thunk';
 import ReactGA from 'react-ga';
 import { HashRouter } from 'react-router-dom';
 
+import createHistory from 'history/createBrowserHistory'
 ReactGA.initialize('UA-148596560-1');
 ReactGA.pageview(window.location.hash);
 
