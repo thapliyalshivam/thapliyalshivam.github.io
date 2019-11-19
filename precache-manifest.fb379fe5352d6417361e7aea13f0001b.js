@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e582b1b39edf06b0ccf242e9c991f29b",
-    "url": "/static/media/img_2.e582b1b3.jpeg"
+    "revision": "532aaef1988c0cb07d3cb2ff93a47127",
+    "url": "/static/media/proxima_Thin.532aaef1.ttf"
   },
   {
-    "revision": "ccc561f8d8f8a3273ff5",
-    "url": "/static/css/main.5cf14903.chunk.css"
+    "revision": "650723e01b069be08997",
+    "url": "/static/css/main.ba9de96d.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,12 +20,28 @@ self.__precacheManifest = [
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
+    "revision": "feface72008e6857da27f939e1eceffa",
+    "url": "/static/media/proxima_Regular.feface72.ttf"
+  },
+  {
+    "revision": "d728a3dba7deb0990ca1dfefed200c82",
+    "url": "/static/media/proxima_Bold.d728a3db.ttf"
+  },
+  {
+    "revision": "7bd0a4c62609f996460b4db12000eb5c",
+    "url": "/static/media/proxima_Semibold.7bd0a4c6.ttf"
+  },
+  {
+    "revision": "650723e01b069be08997",
+    "url": "/static/js/main.650723e0.chunk.js"
+  },
+  {
     "revision": "c013f1594b25b960ac3cf1aacaec93f2",
     "url": "/static/media/img_1.c013f159.jpeg"
   },
   {
-    "revision": "ccc561f8d8f8a3273ff5",
-    "url": "/static/js/main.ccc561f8.chunk.js"
+    "revision": "e582b1b39edf06b0ccf242e9c991f29b",
+    "url": "/static/media/img_2.e582b1b3.jpeg"
   },
   {
     "revision": "edc6af0a2de28459868f2d38eff19abe",
@@ -48,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/loop.a95afe9b.jpeg"
   },
   {
-    "revision": "7baf24caf77a15ca1b2d909fe25929f5",
+    "revision": "7b614b7bd4f07d6ddd4e45a44683d577",
     "url": "/index.html"
   }
 ];
