@@ -28,6 +28,14 @@
       src: local('mm'),
            url('../../Fonts/proxima_Thin.ttf') format('truetype');
     }
+
+    @font-face {
+        font-family: 'Futura_bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('mm'),
+             url('../../Fonts/futura\ medium\ bt.ttf') format('truetype');
+      }
     
 
 a .fill {
@@ -49,7 +57,7 @@ a .fill img {
 }
 .titles{
     color:#222222;
-    font-family: 'futura';
+    font-family: 'Futura_bold';
     font-size: 34px;
     margin: 20px 0px 20px 0px;
 }
