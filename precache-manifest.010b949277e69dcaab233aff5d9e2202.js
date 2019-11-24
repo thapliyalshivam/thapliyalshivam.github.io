@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "532aaef1988c0cb07d3cb2ff93a47127",
-    "url": "/static/media/proxima_Thin.532aaef1.ttf"
+    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
+    "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
-    "revision": "650723e01b069be08997",
-    "url": "/static/css/main.ba9de96d.chunk.css"
+    "revision": "297868a40ebda4ae9f69",
+    "url": "/static/css/main.b2117662.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "feface72008e6857da27f939e1eceffa",
-    "url": "/static/media/proxima_Regular.feface72.ttf"
-  },
-  {
     "revision": "d728a3dba7deb0990ca1dfefed200c82",
     "url": "/static/media/proxima_Bold.d728a3db.ttf"
   },
@@ -32,8 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/proxima_Semibold.7bd0a4c6.ttf"
   },
   {
-    "revision": "650723e01b069be08997",
-    "url": "/static/js/main.650723e0.chunk.js"
+    "revision": "feface72008e6857da27f939e1eceffa",
+    "url": "/static/media/proxima_Regular.feface72.ttf"
+  },
+  {
+    "revision": "532aaef1988c0cb07d3cb2ff93a47127",
+    "url": "/static/media/proxima_Thin.532aaef1.ttf"
+  },
+  {
+    "revision": "297868a40ebda4ae9f69",
+    "url": "/static/js/main.297868a4.chunk.js"
   },
   {
     "revision": "c013f1594b25b960ac3cf1aacaec93f2",
@@ -64,7 +68,11 @@ self.__precacheManifest = [
     "url": "/static/media/loop.a95afe9b.jpeg"
   },
   {
-    "revision": "7b614b7bd4f07d6ddd4e45a44683d577",
+    "revision": "3ea9695ee3af8a5e17413f22249f361a",
+    "url": "/static/media/Futura Heavy font.3ea9695e.ttf"
+  },
+  {
+    "revision": "7f277c64ebd585080a43c975eb0e2895",
     "url": "/index.html"
   }
 ];
