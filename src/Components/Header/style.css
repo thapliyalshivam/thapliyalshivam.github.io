@@ -29,6 +29,13 @@
          url('../../Fonts/proxima_Thin.ttf') format('truetype');
   }
   
+  @font-face {
+    font-family: 'Futura_bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('mm'),
+         url('../../Fonts/Futura Heavy font.ttf') format('truetype');
+  }
 
 .header{
 
@@ -44,7 +51,7 @@
 
 .header h2
 {
- font-family: 'Futura';
+ font-family: 'Futura_bold';
  color:#2E2E2E;
  margin: 0px;
  font-size: 24px;
