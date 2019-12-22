@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import reducer from './reducers/reducer.js'
 import thunk from 'redux-thunk';
 import ReactGA from 'react-ga';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 
 import createHistory from 'history/createBrowserHistory'
 //ReactGA.initialize('UA-148596560-1');
@@ -23,9 +23,9 @@ history.listen((location, action) => {
 });
 
 ReactDOM.render(<Provider store={store}>
-    <HashRouter history={history}>
+    <BrowserRouter history={history}>
         <App />
-    </HashRouter>
+    </BrowserRouter>
 </Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
