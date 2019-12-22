@@ -14,11 +14,12 @@ class About extends Component {
 
     render() {
         return (
-            <div>
+         
                  <div className="mem">
                     <h2>ABOUT ABOUY</h2>
                 </div> 
-            </div>
+                
+                
         );
     }
 

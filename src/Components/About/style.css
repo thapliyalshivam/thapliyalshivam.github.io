@@ -42,7 +42,14 @@
 .mem
 {
  font-family: 'Futura_bold';
+ height: 100%;
+ z-index: 0;
+ width: 100%;
+ padding:484px;
+ position: absolute;
+ background: aqua;
  color:#2E2E2E;
+ box-sizing: border-box;
  margin: 0px;
  font-size: 24px;
 
