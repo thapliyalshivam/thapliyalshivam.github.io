@@ -42,10 +42,11 @@
 .about_wrapper
 {
  font-family: 'Futura_bold';
+ float: left;
  height: 100%;
  z-index: 0;
- width: 100%;
- padding:484px;
+ max-width: 1800px;
+ padding:5px 10%;
  position: absolute;
  background: white;
  color:#2E2E2E;
@@ -55,11 +56,43 @@
 
 }
 
+.about_wrapper img
+{
+width:calc(200px + 20%);
+height: auto;
+ margin-bottom:20px;
+}
 .about_wrapper h1
 {
   color: #222222;
   font-family: 'Futura_bold';
+  margin: 70px;
   font-size: 34px;
   font-weight: 500;
-  margin-top: 10px;
+}
+
+.about_wrapper p
+{
+  font-family: 'Proxima_regular';
+  max-width: 600px ;
+  margin: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 14px;
+  color: #666666;
+}
+
+.about_wrapper h3
+{
+  color: #222222;
+  font-family: 'Futura_bold';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.horizontal
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
 }
