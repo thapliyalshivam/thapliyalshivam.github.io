@@ -39,7 +39,7 @@
 
 
 
-.mem
+.about_wrapper
 {
  font-family: 'Futura_bold';
  height: 100%;
@@ -47,10 +47,19 @@
  width: 100%;
  padding:484px;
  position: absolute;
- background: aqua;
+ background: white;
  color:#2E2E2E;
  box-sizing: border-box;
  margin: 0px;
  font-size: 24px;
 
+}
+
+.about_wrapper h1
+{
+  color: #222222;
+  font-family: 'Futura_bold';
+  font-size: 34px;
+  font-weight: 500;
+  margin-top: 10px;
 }

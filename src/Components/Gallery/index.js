@@ -23,7 +23,7 @@ const GalleryBody = (props) => (
     props.name.map((data, i) => (
         data.type === "TEXT" ?
             <Passages heading={data.heading} text={data.paragraphs} /> :
-            <img src={require(`../../../public/thumbnails/${data.URL}.jpeg`)} />
+            <img src={require(`../../public/thumbnails/${data.URL}.jpeg`)} />
     )
     ));
 
