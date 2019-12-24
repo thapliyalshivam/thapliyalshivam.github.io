@@ -7,7 +7,7 @@ import Card from './Components/Card';
 import Footer from './Components/footer';
 import Gallery from './Components/Gallery';
 import About from './Components/About';
-import { Route, Router } from 'react-router-dom';
+import { Route, Router, Link } from 'react-router-dom';
 
 
 const hello = ({match}) => { return "helloooooo!!"+match.params.project_name };
@@ -25,6 +25,7 @@ class App extends Component {
        <div className="container"><Card /> </div>
 
         <Footer />
+
       </div>
     );
   }
