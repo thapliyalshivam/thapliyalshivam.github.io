@@ -48,6 +48,7 @@ class About extends Component {
         return (
 
             <div className="about_wrapper">
+                <div>
                 <h1>About me</h1>
                 <div className="horizontal">
               <div className="img_wrap"> <img src={require(`../../public/thumbnails/about.jpg`)}></img></div>
@@ -58,8 +59,9 @@ class About extends Component {
                         <Section data={details.data.data} />
                     </div>
                 </div>
+             <Footer/>
 
-             {/* <Footer/> */}
+             </div>
             </div>
 
 

@@ -63,6 +63,116 @@
                     "URL":"loop"
                 }
             ]
+        },
+        {
+            "title": "Animation loops",
+            "img": "loop",
+            "route":"loops",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "id":"PRO_2",
+            "content":[
+                {
+                    "type":"TEXT",
+                    "heading":"concept",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loop"
+                }
+            ]
+        },
+        {
+            "title": "Animation loops",
+            "img": "loop",
+            "route":"loops",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "id":"PRO_2",
+            "content":[
+                {
+                    "type":"TEXT",
+                    "heading":"concept",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loop"
+                }
+            ]
+        },
+        {
+            "title": "Animation loops",
+            "img": "loop",
+            "route":"loops",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "id":"PRO_2",
+            "content":[
+                {
+                    "type":"TEXT",
+                    "heading":"concept",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loop"
+                }
+            ]
+        },
+        {
+            "title": "Animation loops",
+            "img": "loop",
+            "route":"loops",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "id":"PRO_2",
+            "content":[
+                {
+                    "type":"TEXT",
+                    "heading":"concept",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loop"
+                }
+            ]
+        },
+        {
+            "title": "Animation loops",
+            "img": "loop",
+            "route":"loops",
+            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
+            "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
+            "id":"PRO_2",
+            "content":[
+                {
+                    "type":"TEXT",
+                    "heading":"concept",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loop"
+                }
+            ]
         }
     ]
 }

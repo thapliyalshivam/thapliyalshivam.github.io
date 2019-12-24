@@ -44,11 +44,12 @@
  font-family: 'Futura_bold';
 left: 0px;
 right: 0px;
- /* height: 100%; */
+overflow-y: scroll;
+ height: 100%;
  z-index: 0;
  max-width: 1800px;
  padding:5px 10%;
- position: absolute;
+ position: fixed;
  background: white;
  color:#2E2E2E;
  margin: 0px;
@@ -120,7 +121,7 @@ width:100%;
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .bio_wrap > .horizontal
