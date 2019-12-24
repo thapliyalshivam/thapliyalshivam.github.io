@@ -50,23 +50,30 @@
  position: absolute;
  background: white;
  color:#2E2E2E;
- box-sizing: border-box;
  margin: 0px;
  font-size: 24px;
 
 }
 
-.about_wrapper img
+.about_wrapper .img_wrap
 {
 width:calc(200px + 20%);
 height: auto;
  margin-bottom:20px;
+ padding: 0px 40px;
 }
+
+.about_wrapper .img_wrap img
+{
+width:100%;
+}
+
+
 .about_wrapper h1
 {
   color: #222222;
   font-family: 'Futura_bold';
-  margin: 70px;
+  margin: 50px;
   font-size: 34px;
   font-weight: 500;
 }
@@ -90,9 +97,36 @@ height: auto;
   font-weight: 500;
   margin-top: 40px;
 }
+.about_wrapper .listing
+{list-style-type: none;
+  text-align: left;
+  padding: 0px;
+}
+
+.about_wrapper .listing > li::before
+{
+  content: "";
+  border-radius: 50%;
+  width: 3px;
+  height: 3px;
+  background-color: #737272;
+  display: grid;
+  position: absolute;
+  margin: 12px -6px;
+}
 .horizontal
 {
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
+}
+
+.bio_wrap > .horizontal
+{
+  justify-content:space-evenly;
+}
+.about_wrapper .bio_wrap
+{
+  text-align: left;
+
 }

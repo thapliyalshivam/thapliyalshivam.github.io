@@ -7,11 +7,11 @@ import "./style.css";
 const List = (props) => {
     return (
 
-            <ul>
-                {props.listItem.map(element => (
-                    <li><p>{element.title}</p></li>
-                ))}
-            </ul>
+        <ul className="listing">
+            {props.listItem.map(element => (
+                <li><p>{element.title}</p></li>
+            ))}
+        </ul>
     )
 };
 
@@ -22,13 +22,13 @@ const Section = (props) => {
         <div className="horizontal">
             {props.data.map(element => (
                 <React.Fragment>
-                     <div>
-                    <h5> {Object.keys(element)[0]}</h5>
-                    <List listItem={element[Object.keys(element)[0]]} />
+                    <div>
+                        <h3> {Object.keys(element)[0]}</h3>
+                        <List listItem={element[Object.keys(element)[0]]} />
                     </div>
                 </React.Fragment>
             ))}
- </div>
+        </div>
 
     )
 };
@@ -49,11 +49,16 @@ class About extends Component {
             <div className="about_wrapper">
                 <h1>About me</h1>
                 <div className="horizontal">
-                    <img src={require(`../../public/thumbnails/about.jpg`)}></img>
-                    <p>{details.data.bio}</p>
+              <div className="img_wrap"> <img src={require(`../../public/thumbnails/about.jpg`)}></img></div>
+                    <div className = "bio_wrap">
+                        <p>{details.data.bio}</p>
+                        <p>Contact: <b>+91-8859185606</b></p>
+                        <p>Mail: <b>thapliyalshivam@gmail.com</b></p>
+                        <Section data={details.data.data} />
+                    </div>
                 </div>
 
-                    <Section data={details.data.data} />
+             
             </div>
 
 
