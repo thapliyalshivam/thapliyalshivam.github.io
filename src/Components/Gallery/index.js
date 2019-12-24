@@ -64,7 +64,7 @@ class Gallery extends Component {
             return (
                 <div className="gallery">
                     <div>
-                        <img src={require(`../../../public/thumbnails/${project.img}.jpeg`)} />
+                        <img src={require(`../../public/thumbnails/${project.img}.jpeg`)} />
                         <InfoCard links={project} />
                         <GalleryBody name={project.content} />
                         <h4>More Projects</h4>
