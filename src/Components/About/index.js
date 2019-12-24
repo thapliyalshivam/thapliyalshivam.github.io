@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 import Card from "../Card";
+import  Footer from "../footer";
 import * as details from '../../data/about.json';
 import "./style.css";
 
@@ -58,7 +59,7 @@ class About extends Component {
                     </div>
                 </div>
 
-             
+             <Footer/>
             </div>
 
 
