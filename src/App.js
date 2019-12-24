@@ -23,7 +23,8 @@ class App extends Component {
         <Route path='/about' component={About} />   
         <Route path='/:project_name' component={Gallery} />    
         <Card /> 
-        <Footer />
+
+        <Footer about_visibile={true}/>
 
       </div>
     );

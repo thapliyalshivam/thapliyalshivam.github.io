@@ -59,7 +59,7 @@ class About extends Component {
                         <Section data={details.data.data} />
                     </div>
                 </div>
-             <Footer/>
+             <Footer about_visibile={false}/>
 
              </div>
             </div>
