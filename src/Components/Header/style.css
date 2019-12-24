@@ -63,14 +63,14 @@
 
 .spacer {
     
-  height: 40px;
+  height: 100px;
 }
 
 
 @media only screen and (max-width: 1400px) {
    .spacer {
     
-      height: 40px;
+      height: 60px;
   }
 
 }

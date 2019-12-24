@@ -76,7 +76,7 @@ a .fill img {
 @media only screen and (max-width: 1400px) {
     a .fill {
       
-        margin: 40px;
+        margin: 20px 40px;
     }
   
   }
