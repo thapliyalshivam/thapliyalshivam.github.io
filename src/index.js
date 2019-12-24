@@ -23,9 +23,9 @@ history.listen((location, action) => {
 });
 
 ReactDOM.render(<Provider store={store}>
-    <BrowserRouter history={history}>
+    <HashRouter history={history}>
         <App />
-    </BrowserRouter>
+    </HashRouter>
 </Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

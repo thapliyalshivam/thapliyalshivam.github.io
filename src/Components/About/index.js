@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import ReactDOM from "react-dom";
 import Card from "../Card";
 import * as details from '../../data/about.json';
@@ -6,13 +6,12 @@ import "./style.css";
 
 const List = (props) => {
     return (
-        <div>
+
             <ul>
                 {props.listItem.map(element => (
-                <li>{element.title}</li>
+                    <li><p>{element.title}</p></li>
                 ))}
             </ul>
-        </div>
     )
 };
 
@@ -20,12 +19,16 @@ const List = (props) => {
 const Section = (props) => {
     return (
 
-        <div>
+        <div className="horizontal">
             {props.data.map(element => (
-                      <List listItem={element[Object.keys(element)[0]]}/>              
+                <React.Fragment>
+                     <div>
+                    <h5> {Object.keys(element)[0]}</h5>
+                    <List listItem={element[Object.keys(element)[0]]} />
+                    </div>
+                </React.Fragment>
             ))}
-
-        </div>
+ </div>
 
     )
 };
@@ -50,24 +53,7 @@ class About extends Component {
                     <p>{details.data.bio}</p>
                 </div>
 
-                <div className="horizontal">
-                    <Section
-                    data = {details.data.data}/>
-                    <div>
-                        <h3>Featured</h3>
-                        <p>Hi, my name is Shivam Thapliyal. I am a  Graphic Designer/Illustrator based in Bangalore working for Flipkart as a product illustrator.
-                            I am a Computer Science Engineering graduate who after working as a Nodejs developer for 7 months switched to persue Design and Illustrations. My work ranges from simple geometric composition to 3d renderings. From vintage posters to even coding in CSS and Javascript! I also make tech art projects as well.
-                    Wanna say hi?</p>
-                    </div>
-                    <div>
-                        <h3>Featured</h3>
-                        <p>Hi, my name is Shivam Thapliyal. I am a  Graphic Designer/Illustrator based in Bangalore working for Flipkart as a product illustrator.
-                            I am a Computer Science Engineering graduate who after working as a Nodejs developer for 7 months switched to persue Design and Illustrations. My work ranges from simple geometric composition to 3d renderings. From vintage posters to even coding in CSS and Javascript! I also make tech art projects as well.
-                    Wanna say hi?</p>
-                    </div>
-                </div>
-
-
+                    <Section data={details.data.data} />
             </div>
 
 
