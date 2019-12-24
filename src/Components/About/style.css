@@ -42,8 +42,9 @@
 .about_wrapper
 {
  font-family: 'Futura_bold';
- float: left;
- height: 100%;
+left: 0px;
+right: 0px;
+ /* height: 100%; */
  z-index: 0;
  max-width: 1800px;
  padding:5px 10%;

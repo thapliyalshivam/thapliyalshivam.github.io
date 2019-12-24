@@ -22,8 +22,7 @@ class App extends Component {
 
         <Route path='/about' component={About} />   
         <Route path='/:project_name' component={Gallery} />    
-       <div className="container"><Card /> </div>
-
+        <Card /> 
         <Footer />
 
       </div>

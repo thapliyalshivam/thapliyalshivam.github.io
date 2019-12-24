@@ -38,6 +38,8 @@ class Card extends Component {
 
     render() {
         return (
+
+            
             // <h1>sd</h1>
 
 
@@ -49,7 +51,9 @@ class Card extends Component {
             //     </div>
 
 
-            this.props.images.map((c, idt) =>
+            <div className="container">
+
+           { this.props.images.map((c, idt) =>
                  <Link to={ c.route}>
                     <div className="fill" key={c.id} /*onClick={() => this.props.updateCarousel(c.id)}*/>
                         <img src={require(`../../public/thumbnails/${c.img}.jpeg`)}></img>
@@ -57,7 +61,9 @@ class Card extends Component {
                         <h3 className="captions"> {c.desc}</h3>
                     </div>
                  </Link>
-            )
+            )}
+            </div>
+            
         );
     }
 
