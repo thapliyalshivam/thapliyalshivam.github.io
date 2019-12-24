@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import reducer from './reducers/reducer.js'
 import thunk from 'redux-thunk';
 import ReactGA from 'react-ga';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter, BrowserRouter } from 'react-router-dom';
 
 import createHistory from 'history/createBrowserHistory'
 

@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import Card from "../Card";
 import "./style.css";
 
+import { Link } from "react-router-dom";
+
 class Header extends Component {
 
     constructor() {
@@ -23,9 +25,10 @@ class Header extends Component {
     render() {
 
         return (
-            <div>
+            <div className="spacer">
                  <div className="header">
-                    <h2>Shivam Thapliyal</h2>
+                     <Link to="/">
+                    <h2>Shivam Thapliyal</h2></Link>
                 </div> 
                
             </div>
