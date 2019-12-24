@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
-    "url": "/static/media/futura medium bt.ee64fb9d.ttf"
+    "revision": "c013f1594b25b960ac3cf1aacaec93f2",
+    "url": "/static/media/img_1.c013f159.jpeg"
   },
   {
-    "revision": "297868a40ebda4ae9f69",
-    "url": "/static/css/main.b2117662.chunk.css"
+    "revision": "15ca23b956fd93049fd0",
+    "url": "/static/css/main.47ba696e.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "010fb960ef53968c2890",
-    "url": "/static/js/2.010fb960.chunk.js"
+    "revision": "fe2766ecc775d4933bcb",
+    "url": "/static/js/2.fe2766ec.chunk.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
+  },
+  {
+    "revision": "feface72008e6857da27f939e1eceffa",
+    "url": "/static/media/proxima_Regular.feface72.ttf"
   },
   {
     "revision": "d728a3dba7deb0990ca1dfefed200c82",
@@ -28,20 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/proxima_Semibold.7bd0a4c6.ttf"
   },
   {
-    "revision": "feface72008e6857da27f939e1eceffa",
-    "url": "/static/media/proxima_Regular.feface72.ttf"
-  },
-  {
     "revision": "532aaef1988c0cb07d3cb2ff93a47127",
     "url": "/static/media/proxima_Thin.532aaef1.ttf"
   },
   {
-    "revision": "297868a40ebda4ae9f69",
-    "url": "/static/js/main.297868a4.chunk.js"
+    "revision": "ee64fb9d3f1ba2333e1b489283925bce",
+    "url": "/static/media/futura medium bt.ee64fb9d.ttf"
   },
   {
-    "revision": "c013f1594b25b960ac3cf1aacaec93f2",
-    "url": "/static/media/img_1.c013f159.jpeg"
+    "revision": "15ca23b956fd93049fd0",
+    "url": "/static/js/main.15ca23b9.chunk.js"
   },
   {
     "revision": "e582b1b39edf06b0ccf242e9c991f29b",
@@ -72,7 +72,11 @@ self.__precacheManifest = [
     "url": "/static/media/Futura Heavy font.3ea9695e.ttf"
   },
   {
-    "revision": "7f277c64ebd585080a43c975eb0e2895",
+    "revision": "c55a5250fee1da67f6be6e2564c8dd52",
+    "url": "/static/media/about.c55a5250.jpg"
+  },
+  {
+    "revision": "0bd5baf1c7ddc26323cc59f1f8ff7e7b",
     "url": "/index.html"
   }
 ];
