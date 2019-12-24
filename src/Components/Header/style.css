@@ -47,7 +47,10 @@
   
 }
 
-
+.header a 
+{
+  text-decoration: none;
+}
 
 .header h2
 {
@@ -55,5 +58,19 @@
  color:#2E2E2E;
  margin: 0px;
  font-size: 24px;
+
+}
+
+.spacer {
+    
+  height: 40px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+   .spacer {
+    
+      height: 40px;
+  }
 
 }
