@@ -8,7 +8,6 @@ class Footer extends Component {
 
 
     render() {
-
         return (
             <div className="footer">
             <a href="mailto:thapliyalshivam@gmail.com"><i>mail</i></a>
@@ -18,10 +17,7 @@ class Footer extends Component {
             {   this.props.about_visibile ?   <Link to="/about"><i>About me</i></Link>:null }
             </div>
         );
-
     }
-
-
 }
 
 export default Footer;
