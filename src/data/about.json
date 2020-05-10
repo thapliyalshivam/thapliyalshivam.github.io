@@ -1,23 +1,8 @@
 {
     "data": {
-        "bio": "Hi, my name is Shivam Thapliyal. I am a  Graphic Designer/Illustrator based in Bangalore working for Flipkart as a product illustrator. I am a Computer Science Engineering graduate who after working as a Nodejs developer for 7 months switched to persue Design and Illustrations. My work ranges from simple geometric composition to 3d renderings. From vintage posters to even coding in CSS and Javascript! I also make tech art projects as well. Wanna say hi?",
+        "bio": "Hi, my name is Shivam Thapliyal. I am a  Graphic Designer/Illustrator based in Bangalore working for Flipkart as a product illustrator. My work ranges from simple geometric composition to 3d renderings. From vintage posters to even coding in CSS and Javascript! I also make tech art projects as well. Wanna say hi?",
         "data": [
-            {
-                "Concept": [
-                    {
-                        "title": "Js nation 2019",
-                        "Link": "https://twitter.com/home"
-                    },
-                    {
-                        "title": "Samp",
-                        "Link": "https://twitter.com/home"
-                    },
-                    {
-                        "title": "Samp",
-                        "Link": "https://twitter.com/home"
-                    }
-                ]
-            },
+
             
             {
                 "Exhibition": [
@@ -35,6 +20,7 @@
                     }
                 ]
             }
+            
         ]
     }
 }

@@ -18,27 +18,27 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"bahoroop"
+                    "URL":"bahoroop.jpeg"
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"Bahoroopsarshak/img_1"
+                    "URL":"Bahoroopsarshak/img_1.jpeg"
                 },
                  {
                     "type":"IMAGE",
-                    "URL":"Bahoroopsarshak/img_2"
+                    "URL":"Bahoroopsarshak/img_2.jpeg"
                 } ,
                 {
                     "type":"IMAGE",
-                    "URL":"Bahoroopsarshak/img_3"
+                    "URL":"Bahoroopsarshak/img_3.jpeg"
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"Bahoroopsarshak/img_4"
+                    "URL":"Bahoroopsarshak/img_4.jpeg"
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"Bahoroopsarshak/img_5"
+                    "URL":"Bahoroopsarshak/img_5.jpeg"
                 }
             ]
         },
@@ -60,7 +60,7 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"loop"
+                    "URL":"loop.jpeg"
                 }
             ]
         }
