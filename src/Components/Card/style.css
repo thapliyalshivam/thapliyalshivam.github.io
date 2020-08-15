@@ -71,6 +71,11 @@ a .fill img {
  color:#666666;
 }
 
+.img_wrapper{
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
 
 
 @media only screen and (max-width: 1400px) {

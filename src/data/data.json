@@ -44,7 +44,7 @@
         },
         {
             "title": "Animation loops",
-            "img": "thumbnails/loop.jpeg",
+            "img": "loops/loop_1.gif",
             "route":"loops",
             "desc":"2d and 3d coded loops made in three.js and canvas",
             "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
@@ -60,7 +60,19 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"thumbnails/loop.jpeg"
+                    "URL":"loops/loop_1.gif"
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loops/loop_2.gif"
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loops/loop_3.gif"
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"loops/loop_4.gif"
                 }
             ]
         },
@@ -68,16 +80,17 @@
             "title": "Motionism",
             "img": "motionism/cover.gif",
             "route":"motion",
-            "desc":"2d and 3d coded loops made in three.js and canvas",
+            "desc":"Interative graphic sketch based on processing and Kinect V1.",
             "git_link":"http://github.com/thapliyalshivam/webgl_loops/",
             "live_link":"https://thapliyalshivam.github.io/webgl_loops/",
             "id":"PRO_2",
             "content":[
                 {
                     "type":"TEXT",
-                    "heading":"concept",
+                    "heading":"Introduction",
                     "paragraphs":[
-                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                        "Motionism is an experimental sketch which can be fiddled with using motion and pose. The project aims to explore various vidsual compositions, contrasting colour and ever changing hues based on how one plays with it. ",
+                        "The Project was was curated to be part of Processing India 2019 Demo."
                     ]
                 },
                 {
@@ -86,11 +99,11 @@
                 },
                 {
                     "type":"TEXT",
-                    "heading":"Design",
+                    "heading":"Technology",
                     "paragraphs":[
-                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch",
-                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch",
-                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                        "The artwork was made using processing language and Kinect v1 for adding interactivity. Kinect is directly connected to a laptop and provides depth information to Processing",
+                        "Apart from using kinect library, it also uses OpenNI 2 that provide pose estimation capability to detect hands, shoulders and provide information about the distance",
+                        "The Distances is then normalised and then used to make the composition which are made using cinema4d and offseteed and scaled as per the person's pose."
                     ]
                 },
 
