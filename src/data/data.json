@@ -82,7 +82,25 @@
                 },
                 {
                     "type":"IMAGE",
-                    "URL":"motionism/cover.gif"
+                    "URL":"motionism/demo_1.gif"
+                },
+                {
+                    "type":"TEXT",
+                    "heading":"Design",
+                    "paragraphs":[
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch",
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch",
+                        "Animation loops are never ending sketchbook loops made to explore the creative usage of various algorithms, function in generative art. It's a digital sketchbook for visual experimentations and a delight to watch"
+                    ]
+                },
+
+                {
+                    "type":"IMAGE",
+                    "URL":"motionism/setup_1.png"
+                },
+                {
+                    "type":"IMAGE",
+                    "URL":"motionism/show_1.png"
                 }
             ]
         }
