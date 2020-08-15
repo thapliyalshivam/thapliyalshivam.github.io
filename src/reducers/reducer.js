@@ -18,7 +18,6 @@ const reducer = (state = inti_state, action) => {
     }
 
     if (action.type === "DATAPOPULATE") {
- 
         console.log("newwwwwwww")
         return {
             ...state, 

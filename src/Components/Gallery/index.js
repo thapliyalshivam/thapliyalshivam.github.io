@@ -23,7 +23,7 @@ const GalleryBody = (props) => (
     props.name.map((data, i) => (
         data.type === "TEXT" ?
             <Passages heading={data.heading} text={data.paragraphs} /> :
-            <img src={require(`../../public/thumbnails/${data.URL}`)} />
+            <img src={require(`../../public/${data.URL}`)} />
     )
     ));
 
@@ -64,7 +64,7 @@ class Gallery extends Component {
             return (
                 <div className="gallery">
                     <div>
-                        <img src={require(`../../public/thumbnails/${project.img}`)} />
+                        <img src={require(`../../public/${project.img}`)} />
                         <InfoCard links={project} />
                         <GalleryBody name={project.content} />
                         <h4>More Projects</h4>
