@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f8293e6.chunk.css",
-    "main.js": "/static/js/main.41183d06.chunk.js",
-    "main.js.map": "/static/js/main.41183d06.chunk.js.map",
+    "main.css": "/static/css/main.6ee99ab4.chunk.css",
+    "main.js": "/static/js/main.5454df89.chunk.js",
+    "main.js.map": "/static/js/main.5454df89.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.51df2a74.chunk.js": "/static/js/2.51df2a74.chunk.js",
-    "static/js/2.51df2a74.chunk.js.map": "/static/js/2.51df2a74.chunk.js.map",
+    "static/js/2.49b82b37.chunk.js": "/static/js/2.49b82b37.chunk.js",
+    "static/js/2.49b82b37.chunk.js.map": "/static/js/2.49b82b37.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.81aa053dc2130070d7345fd222edcd56.js": "/precache-manifest.81aa053dc2130070d7345fd222edcd56.js",
+    "precache-manifest.0d541f223dddedb3c469ea5ca829f123.js": "/precache-manifest.0d541f223dddedb3c469ea5ca829f123.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2f8293e6.chunk.css.map": "/static/css/main.2f8293e6.chunk.css.map",
-    "static/js/2.51df2a74.chunk.js.LICENSE.txt": "/static/js/2.51df2a74.chunk.js.LICENSE.txt",
+    "static/css/main.6ee99ab4.chunk.css.map": "/static/css/main.6ee99ab4.chunk.css.map",
+    "static/js/2.49b82b37.chunk.js.LICENSE.txt": "/static/js/2.49b82b37.chunk.js.LICENSE.txt",
+    "static/media/01.md": "/static/media/01.4aba5234.md",
     "static/media/style.css": "/static/media/proxima_Thin.532aaef1.ttf",
     "static/media/about.jpg": "/static/media/about.bddb4b90.jpg",
     "static/media/bahoroop.jpeg": "/static/media/bahoroop.d163e8a4.jpeg",
@@ -29,15 +30,13 @@
     "static/media/loop_2.gif": "/static/media/loop_2.81ab87bc.gif",
     "static/media/loop_3.gif": "/static/media/loop_3.a3f939bf.gif",
     "static/media/loop_4.gif": "/static/media/loop_4.6abae037.gif",
-    "static/media/popper.md": "/static/media/popper.0a99712f.md",
-    "static/media/readme.md": "/static/media/readme.b451cf2d.md",
     "static/media/setup_1.png": "/static/media/setup_1.936aac23.png",
     "static/media/show_1.png": "/static/media/show_1.8f6b8583.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.51df2a74.chunk.js",
-    "static/css/main.2f8293e6.chunk.css",
-    "static/js/main.41183d06.chunk.js"
+    "static/js/2.49b82b37.chunk.js",
+    "static/css/main.6ee99ab4.chunk.css",
+    "static/js/main.5454df89.chunk.js"
   ]
 }
