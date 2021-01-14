@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 import { bindActionCreators } from "redux";
 
-import Readme from '../../data/posts/readme.md';
+
 import marked from "marked";
 import { $CombinedState } from "redux";
 
@@ -20,10 +20,8 @@ const renderer = {
 
         if (href.slice(0, 4) == "http")
             return false
-
-        return `
-    <img src=${require(`../../public/${href}`)}></img>
-    `
+        // if not a http source, return back with react image
+        return `<img src=${require(`../../public/${href}`)}></img>`
     }
 };
 
@@ -33,6 +31,7 @@ class Blog extends React.Component {
 
     componentDidMount() {
         let blogpage = this.props.match.params.article;
+        console.log(blogpage);
         this.props.setBlogPage(blogpage);
 
         const readmePath = require(`../../data/posts/${blogpage}.md`);
@@ -51,7 +50,7 @@ class Blog extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-        	markdown: " "
+            markdown: " "
         };
     }
 
@@ -62,7 +61,7 @@ class Blog extends React.Component {
         const { markdown } = this.state;
         //    var markdown = marked( textFetch(blogpage));
         return (
-          
+
             <div className="blog_wrapper" dangerouslySetInnerHTML={{ __html: markdown }}></div>
 
         )

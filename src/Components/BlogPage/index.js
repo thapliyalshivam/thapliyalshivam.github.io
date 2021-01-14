@@ -9,10 +9,13 @@ import * as bloglist from '../../data/blog.json';
 console.log(bloglist.data);
 
 const Listing = (props) => (
-  bloglist.data.map((data, i) => (
+  bloglist.data.filter(list=>list.show)
+  .map((data, i) => (
     <Link to={data.route}>
-      <div>
+      <div className="listing_card">
         <h1>{data.name}</h1>
+        <p>{data.desc}</p>
+        <p><b>{data.date}</b></p>
       </div>
     </Link>
   )
@@ -27,12 +30,18 @@ class BlogPage extends React.Component {
   // componentDidMount() {
   //   }
 
-
   render() {
 
     return (
-      // <h1>bwhbfjhdb</h1>     
-      <Listing />
+      <div className="blog_listing">
+        <div className="intro">
+          <h1>Blog page</h1>
+          <h5>An interactive art installation using nodejs for
+a realtime experience of the visuals.</h5>
+        </div>
+        <Listing />
+      </div>
+
     )
   }
 
