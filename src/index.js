@@ -30,6 +30,8 @@ ReactDOM.render(<Provider store={store}>
     </HashRouter>
 </Provider>, document.getElementById('root'));
 
+// change Hashrouter to Browser router to disable the hash
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
