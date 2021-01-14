@@ -2,9 +2,9 @@
     "data": [
 
         {
-            "name":"Popper",
-            "desc":"his is a line with a small description and design next steos",
-            "date": "June 27, 2019",
+            "name":"My Learning from first Interactive Installation.",
+            "desc":"Learnings I had from my first interative installation",
+            "date": "Jan 21, 2021",
             "route":"blog/01",
             "show": true
         }

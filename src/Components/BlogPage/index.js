@@ -36,8 +36,7 @@ class BlogPage extends React.Component {
       <div className="blog_listing">
         <div className="intro">
           <h1>Blog page</h1>
-          <h5>An interactive art installation using nodejs for
-a realtime experience of the visuals.</h5>
+          <h5>A collection page of experimental works, learnings and daily rough showcase</h5>
         </div>
         <Listing />
       </div>

@@ -1,5 +1,0 @@
-
-        <div className="container"><Card /> </div>
-
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-140335665-1');
