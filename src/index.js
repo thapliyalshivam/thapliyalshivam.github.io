@@ -25,9 +25,9 @@ history.listen((location, action) => {
 });
 
 ReactDOM.render(<Provider store={store}>
-    <HashRouter history={history}>
+    <BrowserRouter history={history}>
         <App />
-    </HashRouter>
+    </BrowserRouter>
 </Provider>, document.getElementById('root'));
 
 // change Hashrouter to Browser router to disable the hash
